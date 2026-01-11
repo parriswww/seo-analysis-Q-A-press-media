@@ -2,38 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Optimus SEO - Resource & Media Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimus SEO - Official Resource & Media Hub</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 1000px; margin: 40px auto; padding: 20px; color: #24292f; }
-        h1 { border-bottom: 2px solid #d0d7de; padding-bottom: 10px; color: #0969da; }
-        h2 { margin-top: 30px; color: #1f2328; background: #f6f8fa; padding: 10px; border-radius: 6px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 15px; }
-        .card { border: 1px solid #d0d7de; padding: 15px; border-radius: 6px; text-decoration: none; color: #0969da; font-weight: 600; transition: 0.2s; }
-        .card:hover { background-color: #f3f4f6; border-color: #0969da; }
-        .card p { color: #57606a; font-weight: 400; font-size: 0.9em; margin-top: 5px; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 1100px; margin: 0 auto; padding: 40px 20px; color: #24292f; background-color: #f6f8fa; }
+        .container { background: #ffffff; padding: 40px; border-radius: 12px; box-shadow: 0 8px 24px rgba(149, 157, 165, 0.2); border: 1px solid #d0d7de; }
+        h1 { color: #0969da; border-bottom: 2px solid #d0d7de; padding-bottom: 15px; margin-top: 0; }
+        h2 { margin-top: 40px; color: #1f2328; border-left: 5px solid #0969da; padding-left: 15px; }
+        p.subtitle { color: #57606a; font-size: 1.1em; margin-bottom: 30px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
+        .card { border: 1px solid #d0d7de; padding: 20px; border-radius: 8px; background: #fff; transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column; }
+        .card:hover { transform: translateY(-3px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-color: #0969da; }
+        .card h3 { margin: 0 0 10px 0; font-size: 1.1em; color: #0969da; }
+        .card p { margin: 0 0 20px 0; font-size: 0.9em; color: #57606a; flex-grow: 1; }
+        .btn { display: inline-block; background-color: #0969da; color: white; padding: 10px 18px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.9em; text-align: center; }
+        .btn:hover { background-color: #0550ae; }
+        .footer { margin-top: 60px; text-align: center; color: #8c959f; font-size: 0.85em; border-top: 1px solid #d0d7de; padding-top: 20px; }
     </style>
 </head>
 <body>
+
+<div class="container">
     <h1>Optimus SEO Resource Hub</h1>
-    <p>Official technical documentation, white papers, and press releases for the Optimus SEO platform.</p>
+    <p class="subtitle">Official technical documentation, white papers, and agency resources.</p>
 
-    <h2>📄 White Papers (Deep Dives)</h2>
+    <h2>📄 Technical White Papers</h2>
     <div class="grid">
-        <a href="white-papers/white paper 1_10.pdf" class="card" target="_blank">AI-Powered Audit Trends <p>How Gemini AI is revolutionizing technical SEO reporting.</p></a>
-        <a href="white-papers/white paper 2_10.pdf" class="card" target="_blank">Core Web Vitals Guide <p>Deep dive into LCP, CLS, and page speed optimization.</p></a>
-        </div>
-
-    <h2>📰 Press Releases</h2>
-    <div class="grid">
-        <a href="press-releases/Intro press release.pdf" class="card" target="_blank">Optimus SEO Launch <p>Official announcement of our SaaS platform for agencies.</p></a>
-        <a href="press-releases/press release 10 series.pdf" class="card" target="_blank">Advanced Feature Series <p>Overview of new white-label and bulk analysis capabilities.</p></a>
+        <div class="card"><h3>AI-Powered Audit Trends</h3><p>Part 1 of 10: How Gemini AI is revolutionizing technical SEO reporting accuracy.</p><a href="white-papers/white paper 1_10.pdf" class="btn" target="_blank">View Report</a></div>
+        <div class="card"><h3>Core Web Vitals Guide</h3><p>Part 2 of 10: A deep dive into LCP, CLS, and real-user performance metrics.</p><a href="white-papers/white paper 2_10.pdf" class="btn" target="_blank">View Report</a></div>
+        <div class="card"><h3>Metadata Optimization</h3><p>Part 3 of 10: Advanced strategies for title tags and meta description CTR.</p><a href="white-papers/white paper 3_10.pdf" class="btn" target="_blank">View Report</a></div>
+        <div class="card"><h3>Structured Data Strategy</h3><p>Part 4 of 10: Leveraging JSON-LD for rich result visibility in search engines.</p><a href="white-papers/white paper 4_10.pdf" class="btn" target="_blank">View Report</a></div>
+        <div class="card"><h3>Mobile-First Crawling</h3><p>Part 5 of 10: Ensuring responsive design compliance for modern search bots.</p><a href="white-papers/white paper 5_10.pdf" class="btn" target="_blank">View Report</a></div>
+        <div class="card"><h3>Site Architecture & Internal Links</h3><p>Part 6 of 10: Optimizing crawl depth and link equity distribution.</p><a href="white-papers/white paper 6_10.pdf" class="btn" target="_blank">View Report</a></div>
+        <div class="card"><h3>JavaScript Rendering Issues</h3><p>Part 7 of 10: How to ensure single-page apps (SPAs) are fully indexable.</p><a href="white-papers/white paper 7_10.pdf" class="btn" target="_blank">View Report</a></div>
+        <div class="card"><h3>Stealth Bot Technology</h3><p>Part 8 of 10: How Playwright-stealth identifies gaps that standard crawlers miss.</p><a href="white-papers/white paper 8_10.pdf" class="btn" target="_blank">View Report</a></div>
+        <div class="card"><h3>The Evolution of AEO</h3><p>Part 9 of 10: Transitioning from standard SEO to Answer Engine Optimization.</p><a href="white-papers/white paper 9_10.pdf" class="btn" target="_blank">View Report</a></div>
+        <div class="card"><h3>2026 SEO Roadmap</h3><p>Part 10 of 10: Future-proofing your agency with AI-driven technical workflows.</p><a href="white-papers/white paper 10_10.pdf" class="btn" target="_blank">View Report</a></div>
     </div>
 
-    <h2>🛠 Error Fixes & Documentation</h2>
+    <h2>📰 Press & Media Releases</h2>
     <div class="grid">
-        <a href="error-fixes/Errors 1.pdf" class="card" target="_blank">Technical Error Resolution <p>Guide to fixing the most common 404 and metadata issues.</p></a>
-        <a href="error-fixes/Errors 2.pdf" class="card" target="_blank">Crawl Diagnostics <p>Understanding why bots get blocked and how to fix it.</p></a>
+        <div class="card"><h3>Platform Introduction</h3><p>Official announcement of the Optimus SEO SaaS launch for marketing agencies.</p><a href="press-releases/Intro press release.pdf" class="btn" target="_blank">Read Release</a></div>
+        <div class="card"><h3>Agency Feature Series</h3><p>Detailed overview of our new white-label and bulk analysis reporting tools.</p><a href="press-releases/press release 10 series.pdf" class="btn" target="_blank">Read Release</a></div>
     </div>
+
+    <h2>🛠 Technical Documentation</h2>
+    <div class="grid">
+        <div class="card"><h3>Common SEO Error Resolution</h3><p>Step-by-step guide to resolving critical 404, 500, and redirect loop errors.</p><a href="error-fixes/Errors 1.pdf" class="btn" target="_blank">View Docs</a></div>
+        <div class="card"><h3>Crawl Diagnostics Guide</h3><p>Troubleshooting manual for ensuring full site accessibility for search crawlers.</p><a href="error-fixes/Errors 2.pdf" class="btn" target="_blank">View Docs</a></div>
+    </div>
+
+    <div class="footer">
+        <p>© 2026 Optimus SEO Technical Documentation Hub. All rights reserved.</p>
+    </div>
+</div>
 
 </body>
 </html>
