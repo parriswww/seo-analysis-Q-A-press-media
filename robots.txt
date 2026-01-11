@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Direct link to your sitemap to help Google find it
+Sitemap: https://parriswww.github.io/seo-aeo-white-paper-Q-A-press-media/sitemap.xml
