@@ -2,20 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Optimus SEO - Press & Media Room</title>
+    <title>Optimus SEO - Resource & Media Hub</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 20px; }
-        h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
-        .release-link { display: block; background: #f8f9fa; padding: 15px; margin-bottom: 10px; 
-                        border-radius: 5px; text-decoration: none; color: #3498db; font-weight: bold; }
-        .release-link:hover { background: #e9ecef; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 1000px; margin: 40px auto; padding: 20px; color: #24292f; }
+        h1 { border-bottom: 2px solid #d0d7de; padding-bottom: 10px; color: #0969da; }
+        h2 { margin-top: 30px; color: #1f2328; background: #f6f8fa; padding: 10px; border-radius: 6px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 15px; }
+        .card { border: 1px solid #d0d7de; padding: 15px; border-radius: 6px; text-decoration: none; color: #0969da; font-weight: 600; transition: 0.2s; }
+        .card:hover { background-color: #f3f4f6; border-color: #0969da; }
+        .card p { color: #57606a; font-weight: 400; font-size: 0.9em; margin-top: 5px; }
     </style>
 </head>
 <body>
-    <h1>Official Press & Media Gallery</h1>
-    <p>Select a press release below to view the full PDF report:</p>
+    <h1>Optimus SEO Resource Hub</h1>
+    <p>Official technical documentation, white papers, and press releases for the Optimus SEO platform.</p>
 
-    <a class="release-link" href="press-release-1.pdf" target="_blank">View: Launch of Optimus SEO Tool</a>
-    <a class="release-link" href="press-release-2.pdf" target="_blank">View: AI Technical Audit Benefits</a>
-    </body>
-</html>/>
+    <h2>📄 White Papers (Deep Dives)</h2>
+    <div class="grid">
+        <a href="white-papers/white paper 1_10.pdf" class="card" target="_blank">AI-Powered Audit Trends <p>How Gemini AI is revolutionizing technical SEO reporting.</p></a>
+        <a href="white-papers/white paper 2_10.pdf" class="card" target="_blank">Core Web Vitals Guide <p>Deep dive into LCP, CLS, and page speed optimization.</p></a>
+        </div>
+
+    <h2>📰 Press Releases</h2>
+    <div class="grid">
+        <a href="press-releases/Intro press release.pdf" class="card" target="_blank">Optimus SEO Launch <p>Official announcement of our SaaS platform for agencies.</p></a>
+        <a href="press-releases/press release 10 series.pdf" class="card" target="_blank">Advanced Feature Series <p>Overview of new white-label and bulk analysis capabilities.</p></a>
+    </div>
+
+    <h2>🛠 Error Fixes & Documentation</h2>
+    <div class="grid">
+        <a href="error-fixes/Errors 1.pdf" class="card" target="_blank">Technical Error Resolution <p>Guide to fixing the most common 404 and metadata issues.</p></a>
+        <a href="error-fixes/Errors 2.pdf" class="card" target="_blank">Crawl Diagnostics <p>Understanding why bots get blocked and how to fix it.</p></a>
+    </div>
+
+</body>
+</html>
